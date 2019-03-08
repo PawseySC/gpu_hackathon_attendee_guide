@@ -13,3 +13,5 @@ While this course does not assume any previous experience with OpenACC directive
 
 Link: https://www.openacc.org/events/openacc-online-course-2018
 
+# OpenACC slack channel
+To sign up for the OpenACC slack channel, please visit: www.openacc.org/community
