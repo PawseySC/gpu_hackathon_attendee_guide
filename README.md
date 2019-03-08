@@ -1,4 +1,4 @@
-(https://www.olcf.ornl.gov/wp-content/uploads/2018/11/2019_gpu_hackathon_logo.png)
+![2019 GPU Hackathon in Perth]((https://www.olcf.ornl.gov/wp-content/uploads/2018/11/2019_gpu_hackathon_logo.png "2019 GPU Hackathon in Perth")
 
 # Introduction
 On this pages we summarise all important information for the attendees and mentors of [the Australia's 2019 GPU Hackathon](https://pawsey.org.au/registrations-for-2019-gpu-hackathon-in-australia-are-open/). 
