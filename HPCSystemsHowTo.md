@@ -7,6 +7,9 @@ During the 2019 GPU Hackathon we will use Zeus (HPE cluster). Node confiugration
 
 Each team has a single node reserved for their exclusive use. Additionally there are 2 nodes for general use, available for all teams with the main purpose of scheduling longer benchmarking runs.  
 
+Documentation: https://support.pawsey.org.au/documentation/display/US/HPC+Systems#HPCSystems-Zeus(HPECluster)
+Online video: https://youtu.be/lOAny8Fy9Rc
+
 # Reservation
 
 SLURM is being used on Zeus system. To access your reservation please add "--reservation=RESERVATION_NAME" to sbatch or salloc command. 
