@@ -5,7 +5,9 @@ programming expertise. The mentors come from universities, national laboratories
 supercomputing centers, government institutions, and vendors.
 
 Note, this document assumes a 5-day event held Monday - Friday from 8 AM - 5 PM each day
-except Friday, where the event officially ends sometime between 1-3 PM.
+except Friday, where the event officially ends sometime between 1-4 PM.
+
+There will be a networking opportunity running on Firday at 4.30pm.
 
 ## Preparing for a Hackathon
 This section outlines recommendations gathered from participants and mentors over the years
