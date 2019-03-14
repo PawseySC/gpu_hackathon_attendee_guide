@@ -49,7 +49,7 @@ Step by step guides for 3 tools are given here:
 - ARM Performance Reports: https://support.pawsey.org.au/documentation/display/US/Profiling+with+Arm+Performance+Reports
 - ARM DDT: https://support.pawsey.org.au/documentation/display/US/Debugging+with+Arm+DDT
 
-Please be aware that during the configuration of the Remote Launch Settings you will need to specify different directory compared to the guides mentioned above. Software is installed for each of the group separately in: /group/gpuhack2019team**N**/software/sles12sp3/devel/binary/forge/19.0.3
+Please be aware that during the configuration of the Remote Launch Settings you will need to specify different directory compared to the guides mentioned above. Software is installed for each of the group separately in: ```console /group/gpuhack2019team**N**/software/sles12sp3/devel/binary/forge/19.0.3```
 (**N** is the team number) 
 
 Module is available after running:
