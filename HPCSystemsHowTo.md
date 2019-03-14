@@ -20,7 +20,7 @@ SLURM is being used on Zeus system. To access your reservation please add "--res
 
 | Reservation name | Nodes | Access |
 | ---------------- | ----- | ------ |
-| gpuhackathon     | a087, a088 | pawsey0001,gpuhack2019team1,gpuhack2019team2,gpuhack2019team3,gpuhack2019team4,gpuhack2019team5,gpuhack2019team6 | 
+| gpuhackathon     | a087, a088 | gpuhack2019team1, gpuhack2019team2, gpuhack2019team3, gpuhack2019team4, gpuhack2019team5, gpuhack2019team6 | 
 | gpuhack2019team1 | a081 | gpuhack2019team1 |
 | gpuhack2019team2 | a082 | gpuhack2019team2 |
 | gpuhack2019team3 | a083 | gpuhack2019team3 |
