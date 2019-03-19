@@ -49,9 +49,20 @@ The "Access denied" message should be disregarded. GPU Hackathon projects are ad
 
 It is also possible to submit jobs to the gpuhackathon reservation. This is mainly dedicated for longer (e.g. profiling) or 2-node runs. To use it specify "--reservation=gpuhackathon" option in the srun command or "#SBATCH --reservation=gpuhackathon" in the queueing script. 
 
-For instructions on how to create queueing scripts and how to use SLURM on Pawsey HPC systems please refer to: https://support.pawsey.org.au/documentation/display/US/Job+Scheduling
+For instructions on how to create queueing scripts and how to use SLURM on Pawsey HPC systems please refer to: 
+https://support.pawsey.org.au/documentation/display/US/Job+Scheduling
 
 # Development tools
+
+## Environment
+
+Lmod is used for environemnt management on Zeus system. 
+For more information on how to use Lmod please refer to: 
+https://support.pawsey.org.au/documentation/display/US/Modules
+
+as well as: 
+https://youtu.be/NjCqMTVisEc
+
 ## Editors
 Vim and Emacs are available on Zeus. 
 
@@ -63,7 +74,16 @@ foo@bar:~$ nano
 ```
 
 ## Compilers
+
+There are 3 compiler families available on Zeus:
+* GNU compiler: 4.8.5, 5.5.0, 7.2.0
+* Intel compiler: 17.0.5
+* PGI compiler: 18.3, 19.1
+
 ## CUDA
+
+
+
 ## OpenACC
 ## ARM Forge
 ARM (www.arm.com) provided us with temporal license available and configured for all teams. The license is for 512 MPI processes and 64 accelerators and should be enough for both development purposes and larger profiling runs.
