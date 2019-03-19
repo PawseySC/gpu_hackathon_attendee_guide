@@ -18,7 +18,7 @@ SLURM is being used on Zeus system. To access your reservation please add "--res
 
 **List of reservations and teams**:
 
-| Reservation name | Nodes | Access |
+| Reservation name | Nodes | Access | 
 | ---------------- | ----- | ------ |
 | gpuhackathon     | a087, a088 | gpuhack2019team1, gpuhack2019team2, gpuhack2019team3, gpuhack2019team4, gpuhack2019team5, gpuhack2019team6 | 
 | gpuhack2019team1 | a081 | gpuhack2019team1 |
@@ -28,9 +28,28 @@ SLURM is being used on Zeus system. To access your reservation please add "--res
 | gpuhack2019team5 | a085 | gpuhack2019team5 |
 | gpuhack2019team6 | a086 | gpuhack2019team6 |
 
+# Logging in
+
+You can login to Zeus system with the use of secure shell (SSH):
+```console
+foo@bar:~$ ssh username@zeus.pawsey.org.au
+```
+
 # Running jobs
 
-TBD
+GPU Hackathon participants can login directly into compute nodes assigned to their team. For instance, members of the gpuhack2019team1 can login directly into a081:
+```console
+username@zeus:~$ ssh a081
+Password:
+Access denied by pam_slurm_adopt: you have no active jobs on this node
+Last login: Wed Mar 13 08:41:51 2019 from 146.118.36.65
+username@a081:~$
+```
+The "Access denied" message should be disregarded. GPU Hackathon projects are added to exception list of the pam_slurm_adopt which is enabled on Zeus.  
+
+It is also possible to submit jobs to the gpuhackathon reservation. This is mainly dedicated for longer (e.g. profiling) or 2-node runs. To use it specify "--reservation=gpuhackathon" option in the srun command or "#SBATCH --reservation=gpuhackathon" in the queueing script. 
+
+For instructions on how to create queueing scripts and how to use SLURM on Pawsey HPC systems please refer to: https://support.pawsey.org.au/documentation/display/US/Job+Scheduling
 
 # Development tools
 ## Editors
