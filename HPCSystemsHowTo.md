@@ -124,10 +124,18 @@ foo@a081:~$ module load pgi/19.1 openmpi/4.0.0
 
 ## CUDA
 
+CUDA 9.2 was installed in separate /group directories for each of the team. For instance, members of the gpuhack2019team1 group can load it in the following way:
+```console
+foo@zeus:~$ module use /group/gpuhack2019team1/software/sles12sp3/modulefiles
+foo@zeus:~$ module load cuda/9.2
+``` 
 
-
+There is also CUDA 8.0 available as a system module for all Zeus users. 
 
 ## OpenACC
+
+OpenACC is available on Zeus in the PGI compiler (versions 18.3 and 19.1). Please refer to the compiler section for more information.
+
 ## ARM Forge
 ARM (www.arm.com) provided us with temporal license available and configured for all teams. The license is for 512 MPI processes and 64 accelerators and should be enough for both development purposes and larger profiling runs.
 
@@ -149,6 +157,6 @@ foo@bar:~$ module use /group/gpuhack2019teamN/software/sles12sp3/modulefiles
 foo@bar:~$ module load forge/19.0.3
 ```
 
-# Cloud resources  
+# More information  
 
-TBD
+Please refer to our Pawsey's User Documentation Pages: https://support.pawsey.org.au/documentation/display/US/User+Support+Documentation
