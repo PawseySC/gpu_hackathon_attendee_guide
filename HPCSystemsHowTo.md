@@ -80,7 +80,29 @@ There are 3 compiler families available on Zeus:
 * Intel compiler: 17.0.5
 * PGI compiler: 18.3, 19.1
 
+GNU, Intel and PGI 18.3 compilers are available as system modules for all users. For instance, to use Intel 17.0.5 compiler:
+```console
+foo@zeus:~$ module load intel
+```
+
+PGI 19.1 compiler was installed in separate /group directories for each of the team. For instance, members of the gpuhack2019team1 group can load it in the following way:
+```console
+foo@zeus:~$ module use /group/gpuhack2019team1/software/sles12sp3/modulefiles
+foo@zeus:~$ module load pgi/19.1
+```
+
+Please be aware that there are compiler architecture setting available on the compute nodes within the broadwel module. Make sure that this module is loaded before compiling your code:
+```console
+foo@a081:~$ module list
+
+Currently Loaded Modules:
+  1) pawseytools/1.23   2) slurm/17.11.9   3) broadwell/1.0   4) gcc/4.8.5   5) xalt/default-zeus
+```
+
+Zeus login nodes are based on Sandybridge architecture and have sandybridge module loaded by default. 
+
 ## CUDA
+
 
 
 
