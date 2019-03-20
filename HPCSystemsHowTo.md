@@ -101,6 +101,27 @@ Currently Loaded Modules:
 
 Zeus login nodes are based on Sandybridge architecture and have sandybridge module loaded by default. 
 
+## MPI
+
+Please consider using one of the following options:
+* Intel compiler with Intel MPI
+```console
+foo@a081:~$ module load intel intel-mpi
+```
+* GNU compiler with Intel MPI or OpenMPI
+```console
+foo@a081:~$ module load gcc intel-mpi
+```
+or
+```console
+foo@a081:~$ module load gcc openmpi/2.1.2
+```
+* PGI 19.1 compiler with OpenMPI
+```console
+foo@a081:~$ module use /group/gpuhack2019team1/software/sles12sp3/modulefiles
+foo@a081:~$ module load pgi/19.1 openmpi/4.0.0 
+```
+
 ## CUDA
 
 
