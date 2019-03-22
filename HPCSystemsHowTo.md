@@ -52,6 +52,12 @@ It is also possible to submit jobs to the gpuhackathon reservation. This is main
 For instructions on how to create queueing scripts and how to use SLURM on Pawsey HPC systems please refer to: 
 https://support.pawsey.org.au/documentation/display/US/Job+Scheduling
 
+Please be aware that when you login directly to the compute node directly the stack size is limited. This might result in early crash of the code (especially Fortran one). This can be changed by:
+```console
+username@a081:~$ ulimit -s unlimited
+```
+When you use sbatch or salloc the stack size is set to unlimited automatically. 
+
 # Development tools
 
 ## Environment
@@ -119,7 +125,7 @@ foo@a081:~$ module load gcc openmpi/2.1.2
 * PGI 19.1 compiler with OpenMPI
 ```console
 foo@a081:~$ module use /group/gpuhack2019team1/software/sles12sp3/modulefiles
-foo@a081:~$ module load pgi/19.1 openmpi/4.0.0 
+foo@a081:~$ module load pgi/19.1 openmpi/3.1.3 
 ```
 
 ## CUDA
