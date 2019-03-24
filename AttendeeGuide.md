@@ -4,7 +4,7 @@ application(s) to run on GPUs, or focus on optimizing your application(s) that c
 programming expertise. The mentors come from universities, national laboratories,
 supercomputing centers, government institutions, and vendors.
 
-Note, this document assumes a 5-day event held Monday - Friday from 8 AM - 5 PM each day
+Note, this document assumes a 5-day event held Monday - Friday from 9 AM - 5 PM each day
 except Friday, where the event officially ends sometime between 1-4 PM.
 
 There will be a networking opportunity running on Firday at 4.30pm.
